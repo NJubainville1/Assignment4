@@ -74,10 +74,40 @@ body{
     margin-right: auto;
 }
 .hovereffect div {
-    position: relative;
+    position: relative;    
+}
+.fig-bg-colour
+{
     background: #e5e5e5;
 }
-
+.beige-button-black
+{
+    background: #000000;
+    color: #ffffff;
+}
+.beige-button-black:hover
+{
+    background: #ffcb93;
+    color: #000000;
+}
+.beige-button-white
+{
+    background: #ffffff;
+    color: #000000;
+}
+.beige-button-white:hover
+{
+    background: #ffcb93;
+    color: #000000;
+}
+.border-button
+{
+    border: 2px solid rgb(218, 218, 218);
+}
+.border-button:hover
+{
+    border: 2px solid black;
+}
 .hovereffect div img {
     opacity: 1;
     transition: .4s ease-in;
@@ -114,6 +144,26 @@ body{
     position: absolute;
     top: 45%;
     left: 10%;
+}
+.btn
+{
+    padding: 5px 50px;
+}
+.social-icons-white
+{
+    color: #ffffff;
+    margin-right: 20px;
+    width: 30px;
+}
+.social-icons-white:hover, .social-icons-black:hover
+{
+    color:#ffe1bd;
+}
+.social-icons-black
+{
+    color: #000000;
+    margin-right: 20px;
+    width: 30px;
 }
 
 @media (min-width: 600px){      
